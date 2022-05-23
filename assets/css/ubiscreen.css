@@ -1,0 +1,148 @@
+#logo-brand {
+  height: 150px;
+}
+
+.dropdown-toggle-text-only::after {
+  display: none;
+}
+
+.dropdown-toggle-navbar-lg::after {
+  margin-top: 1.4rem  ;
+}
+
+#navbar-lg {
+  border-bottom-style: solid;
+  border-width: 1px;
+  border-color: #bfbfbf;
+}
+
+#main {
+  padding: 0;
+}
+
+#sidebar {
+  border-right-style: solid;
+  border-width: 1px;
+  border-color: #bfbfbf;
+  min-height: 100vh;
+}
+
+.sidebar-item {
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.menu-active {
+  border: 1px solid #ff6f02;
+  background-color: #ff6f02;
+  margin-left: 1rem;
+}
+
+.menu-active > a {
+  color: white !important;
+}
+
+#account-name {
+  margin: 0 10px;
+}
+
+#account-name > p {
+  margin: 0
+}
+
+#account-icon {
+  width: 50px;
+  height: 50px;
+  background-color: #ff6f02;
+  color: white;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.7rem;
+}
+
+.breadcrumb-item > a {
+  color: #ff6f02;
+  text-decoration: none;
+}
+
+.nav-tabs > .nav-item > a {
+  text-decoration: none;
+  color: #6c757d;
+}
+
+.nav-tabs > .nav-item:first-child {
+  margin-left: 3vw;
+}
+
+.nav-tabs > .nav-item > a.active {
+  border-color: #fff;
+  border-bottom-color: #ff6f02;
+  color: #ff6f02;
+  font-weight: bolder;
+}
+
+.light {
+  width: 20px;
+  height: 20px;
+}
+
+.btn-outline-warning {
+  color: #ff6f02;
+  border-color: #ff6f02;
+}
+
+#link-map {
+  text-decoration: none;
+  color: #ff6f02;
+}
+
+#card-address {
+  background-color: #f8f8f8;
+}
+
+#tabel-schedule .btn-primary {
+  background-color: #bd78ef;
+  border: none;
+}
+
+#tabel-schedule .btn-info {
+  background-color: #6abff5;
+  border: none;
+}
+
+#tabel-schedule .btn-success {
+  background-color: #60dd91;
+  border: none;
+  color: black;
+}
+
+#tabel-schedule .btn-warning {
+  background-color: #dd8c61;
+  border: none;
+  color: white;
+}
+
+#day {
+  border: 1px solid#6c757d;
+  border-radius: 7px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  width: 65px;
+}
+
+#time a {
+  text-decoration: none;
+  color: #6c757d;
+}
+
+
+@media only screen and (min-width: 992px) {
+  #navbar-lg {
+    height: 150px;
+  }
+}
